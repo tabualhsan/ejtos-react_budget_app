@@ -41,17 +41,17 @@ const CurrencyDrop = () => {
     }
 
     return (
-    <div className='alert alert-secondary'>
+    <div className='alert'>
         <Dropdown>
-            <Dropdown.Toggle className='currency-dropdown' variant="success" id="dropdown-basic">
+            <Dropdown.Toggle className='dropdown' variant="success" id="dropdown-basic">
                 Currency {currstate}
             </Dropdown.Toggle>
 
             <Dropdown.Menu className='menu'>
-                <Dropdown.Item onClick={() => {change_currency('$')}} className='currency-item' href="#/action-1">$ Dollar</Dropdown.Item>
-                <Dropdown.Item onClick={() => {change_currency('£')}} className='currency-item' href="#/action-2">£ Pound</Dropdown.Item>
-                <Dropdown.Item onClick={() => {change_currency('€')}} className='currency-item' href="#/action-3">€ Euro</Dropdown.Item>
-                <Dropdown.Item onClick={() => {change_currency('₹')}} className='currency-item' href="#/action-4">₹ Ruppee</Dropdown.Item>
+                <Dropdown.Item onClick={() => {change_currency('$')}} className='item' href="#/action-1">$ Dollar</Dropdown.Item>
+                <Dropdown.Item onClick={() => {change_currency('£')}} className='item' href="#/action-2">£ Pound</Dropdown.Item>
+                <Dropdown.Item onClick={() => {change_currency('€')}} className='item' href="#/action-3">€ Euro</Dropdown.Item>
+                <Dropdown.Item onClick={() => {change_currency('₹')}} className='item' href="#/action-4">₹ Ruppee</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
     </div>

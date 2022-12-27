@@ -13,9 +13,9 @@ code {
 }
 
 
-.currency-dropdown,
-.currency-dropdown:hover,
-.currency-dropdown:focus
+.dropdown,
+.dropdown:hover,
+.dropdown:focus
 {
     background-color: #77dd77;
     border: none
@@ -27,7 +27,7 @@ code {
     border: 1px solid #000;
 }
 
-.currency-item:hover {
+.item:hover {
     background-color:#79ee79;
 
 }
